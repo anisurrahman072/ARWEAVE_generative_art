@@ -7,8 +7,7 @@ const network = NETWORK.eth; // change to .sol if use solana
 // General metadata for Ethereum
 const namePrefix = "Best Collection";
 const description = "The Nft Collection";
-const baseUri =
-  "https://5mikjzrs5iolgscx44x5dpdjj7fib5mhgmxmsvkthqtqn5lgtjrq.arweave.net/6xCk5jLqHLNIV-cv0bxpT8qA9YczLslVUzwnBvVmmmM";
+const baseUri = "######";
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -23,7 +22,12 @@ const layerConfigurations = [
       { name: "Eyes" },
       { name: "Nose" },
       { name: "Mouth" },
-      { name: "Jersey" },
+      {
+        name: "Jersey",
+        options: {
+          bypassDNA: true,
+        },
+      },
     ],
   },
 ];
