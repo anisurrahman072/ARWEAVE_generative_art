@@ -53,6 +53,8 @@ build/
 dist/
 node_modules/
 jspm_packages/
+Generated_Layers/
+DOWNLOAD_countries/
 
 # TypeScript v1 declaration files
 
