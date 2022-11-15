@@ -1,12 +1,13 @@
 const basePath = process.cwd();
-const { MODE } = require(`${basePath}/constants/blend_mode.js`);
+const { MODE } = require(`${basePath}/constants/blend_Mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.eth; // change to .sol if use solana
 
 // General metadata for Ethereum
-const namePrefix = "Best Collection";
-const description = "The Nft Collection";
+const namePrefix = "BSport - Qatar";
+const description =
+  "BasementSports is a collection of 32,000 unique BSport NFTs - living on the Polygon Blockchain.";
 const baseUri = "######";
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -17,13 +18,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_1",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -35,13 +48,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_3",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -53,13 +78,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_10",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -71,13 +108,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_11",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -89,13 +138,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_19",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -107,13 +168,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_2",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -125,13 +198,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_4",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -143,13 +228,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_5",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -161,13 +258,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_6",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -179,13 +288,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_7",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -199,13 +320,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_8",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -217,13 +350,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_9",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -235,13 +380,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_12",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -253,13 +410,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_13",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -271,13 +440,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_14",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -289,13 +470,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_15",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -307,13 +500,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_16",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -325,13 +530,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_17",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -343,13 +560,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_18",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -361,13 +590,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_20",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -381,13 +622,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_21",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -399,13 +652,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_22",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -417,13 +682,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_23",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -435,13 +712,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_24",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -453,13 +742,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_25",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -471,13 +772,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_26",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -489,13 +802,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_27",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -507,13 +832,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_28",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -525,13 +862,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_29",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
@@ -543,13 +892,25 @@ const layerConfigurations = [
       { name: "Flag" },
       { name: "Skin" },
       { name: "Hair" },
-      { name: "Nose" },
+      { name: "Mouth" },
       { name: "Eyebrows" },
       { name: "Jersey" },
       {
+        name: "Dominant Leg",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
+        name: "Position",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      {
         name: "JerseyNumber_30",
         options: {
-          displayName: "JerseyNumber",
+          displayName: "Jersey Number",
           bypassDNA: true,
         },
       },
