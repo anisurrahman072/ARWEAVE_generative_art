@@ -5,7 +5,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth; // change to .sol if use solana
 
 // General metadata for Ethereum
-const namePrefix = "BSport - Ecuador";
+const namePrefix = "BSport - Senegal";
 const description =
   "BasementSports is a collection of 32,000 unique BSport NFTs - living on the Polygon Blockchain.";
 const baseUri = "######";
@@ -37,7 +37,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_7",
+        name: "JerseyNumber_6",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -67,7 +67,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_11",
+        name: "JerseyNumber_7",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -97,7 +97,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_13",
+        name: "JerseyNumber_8",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -127,7 +127,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_23",
+        name: "JerseyNumber_9",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -157,7 +157,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_30",
+        name: "JerseyNumber_10",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -341,7 +341,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_6",
+        name: "JerseyNumber_11",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -371,7 +371,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_8",
+        name: "JerseyNumber_12",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -401,7 +401,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_9",
+        name: "JerseyNumber_13",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -431,7 +431,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_10",
+        name: "JerseyNumber_14",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -461,7 +461,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_12",
+        name: "JerseyNumber_15",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -495,7 +495,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_14",
+        name: "JerseyNumber_16",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -525,7 +525,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_15",
+        name: "JerseyNumber_17",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -555,7 +555,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_16",
+        name: "JerseyNumber_18",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -585,7 +585,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_17",
+        name: "JerseyNumber_19",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -615,7 +615,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_18",
+        name: "JerseyNumber_20",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -645,7 +645,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_19",
+        name: "JerseyNumber_21",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -675,7 +675,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_20",
+        name: "JerseyNumber_22",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -705,7 +705,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_21",
+        name: "JerseyNumber_23",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -735,7 +735,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_22",
+        name: "JerseyNumber_24",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -765,7 +765,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_24",
+        name: "JerseyNumber_25",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -795,7 +795,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_25",
+        name: "JerseyNumber_26",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -825,7 +825,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_26",
+        name: "JerseyNumber_27",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -855,7 +855,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_27",
+        name: "JerseyNumber_28",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -885,7 +885,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_28",
+        name: "JerseyNumber_29",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -915,7 +915,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_29",
+        name: "JerseyNumber_30",
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
