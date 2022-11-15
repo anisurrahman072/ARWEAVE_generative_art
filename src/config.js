@@ -5,12 +5,19 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth; // change to .sol if use solana
 
 // General metadata for Ethereum
-const namePrefix = "BSport - Senegal";
+const namePrefix = "BSport - Netherlands";
 const description =
   "BasementSports is a collection of 32,000 unique BSport NFTs - living on the Polygon Blockchain.";
 const baseUri = "######";
 
 // If you have selected Solana then the collection starts from 0 automatically
+
+const JERSY_NUMBERS_FOR_20_EACH = [4, 8, 9, 10, 12];
+const JERSY_NUMBERS_FOR_30_EACH = [1, 2, 3, 5, 6, 7, 11, 13, 14, 15];
+const JERSY_NUMBERS_FOR_40_EACH = [
+  16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+];
+
 const layerConfigurations = [
   //  +++++++++++++ 20 Each Start +++++++++++++
   //  +++++++++++++ 20 Each Start +++++++++++++
@@ -37,7 +44,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_6",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_20_EACH[0]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -67,7 +74,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_7",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_20_EACH[1]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -97,7 +104,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_8",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_20_EACH[2]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -127,7 +134,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_9",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_20_EACH[3]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -157,7 +164,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_10",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_20_EACH[4]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -191,7 +198,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_1",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[0]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -221,7 +228,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_2",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[1]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -251,7 +258,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_3",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[2]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -281,7 +288,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_4",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[3]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -311,7 +318,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_5",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[4]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -341,7 +348,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_11",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[5]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -371,7 +378,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_12",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[6]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -401,7 +408,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_13",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[7]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -431,7 +438,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_14",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[8]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -461,7 +468,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_15",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_30_EACH[9]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -495,7 +502,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_16",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[0]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -525,7 +532,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_17",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[1]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -555,7 +562,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_18",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[2]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -585,7 +592,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_19",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[3]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -615,7 +622,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_20",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[4]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -645,7 +652,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_21",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[5]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -675,7 +682,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_22",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[6]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -705,7 +712,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_23",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[7]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -735,7 +742,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_24",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[8]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -765,7 +772,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_25",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[9]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -795,7 +802,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_26",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[10]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -825,7 +832,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_27",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[11]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -855,7 +862,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_28",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[12]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -885,7 +892,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_29",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[13]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
@@ -915,7 +922,7 @@ const layerConfigurations = [
         },
       },
       {
-        name: "JerseyNumber_30",
+        name: `JerseyNumber_${JERSY_NUMBERS_FOR_40_EACH[14]}`,
         options: {
           displayName: "Jersey Number",
           bypassDNA: true,
