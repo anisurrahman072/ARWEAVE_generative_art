@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth; // change to .sol if use solana
 
 // General metadata for Ethereum
-const namePrefix = "BSport - Poland";
+const namePrefix = "BSport - Denmark";
 const description =
   "BasementSports is a collection of 32,000 unique BSport NFTs - living on the Polygon Blockchain.";
 const baseUri = "######";
 
 // If you have selected Solana then the collection starts from 0 automatically
 
-const JERSY_NUMBERS_FOR_20_EACH = [5, 9, 10, 15, 20];
-const JERSY_NUMBERS_FOR_30_EACH = [1, 2, 3, 4, 6, 7, 8, 11, 12, 13];
+const JERSY_NUMBERS_FOR_20_EACH = [4, 6, 8, 10, 23];
+const JERSY_NUMBERS_FOR_30_EACH = [1, 2, 3, 5, 7, 9, 11, 12, 13, 14];
 const JERSY_NUMBERS_FOR_40_EACH = [
-  14, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+  15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30,
 ];
 
 const layerConfigurations = [
